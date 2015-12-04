@@ -7,7 +7,7 @@ using System.Linq;
 using System;
 
 
-namespace A3Utility.EditorGUIExtender.ListFields {
+namespace A3Utility.ListFields {
     public class IntListField : ListField<int> {
         public IntListField(string label) : this(label, null, null) {; }
         public IntListField(string label, Action repaint) : this(label, repaint, null) {; }

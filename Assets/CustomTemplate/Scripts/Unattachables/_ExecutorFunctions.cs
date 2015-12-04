@@ -1,16 +1,10 @@
-﻿#if UNITY_EDITOR
-using UnityEngine;
-using UnityEditor;
-using UnityEditorInternal;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
+﻿using UnityEngine;
 using System.IO;
 
 
 namespace A3Utility.CustomTemplate {
-    public class ExecutorsFunctions {
-        public delegate string FunctionDelegate(ExecutorsFunctions functions, string path);
+    public class ExecutorFunctions {
+        public delegate string FunctionDelegate(ExecutorFunctions functions, string path);
 
 
         public string GetClass(string path) {
@@ -48,4 +42,3 @@ namespace A3Utility.CustomTemplate {
         }
     }
 }
-#endif

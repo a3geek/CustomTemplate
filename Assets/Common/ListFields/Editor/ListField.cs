@@ -7,7 +7,7 @@ using System.Linq;
 using System;
 
 
-namespace A3Utility.EditorGUIExtender.ListFields {
+namespace A3Utility.ListFields {
     public class ListField<T> {
         public float MinHeight { get; set; }
         public bool ShowHorizontalScrollBar { get; set; }

@@ -7,7 +7,7 @@ using System.Linq;
 using System;
 
 
-namespace A3Utility.EditorGUIExtender.ListFields {
+namespace A3Utility.ListFields {
     public class FloatListField : ListField<float> {
         public FloatListField(string label) : this(label, null, null) {; }
         public FloatListField(string label, Action repaint) : this(label, repaint, null) {; }

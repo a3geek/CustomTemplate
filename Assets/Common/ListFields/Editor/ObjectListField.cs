@@ -7,7 +7,7 @@ using System.Linq;
 using System;
 
 
-namespace A3Utility.EditorGUIExtender.ListFields {
+namespace A3Utility.ListFields {
     public class ObjectListField<T> : ListField<T> where T : UnityEngine.Object {
         public ObjectListField(string label) : this(label, null, null) {; }
         public ObjectListField(string label, Action repaint) : this(label, repaint, null) {; }
